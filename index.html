@@ -5,62 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
         <div class="header-top">
-            <div>Header Logo</div>
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
+            <div class="header-logo">Header Logo</div>
+            <div class="header-ul">
+                <ul class="right-links">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
         </div>
         <div class="header-content">
            <div class="text">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p> 
+            <h1 id="header-h1">This website is awesome</h1>
+            <p class="header-p">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p> 
             <button> Sign up</button>
            </div>
            <div class="image">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs6_qqehYNFBDh40Lvvn1G5vJy-QyJQbo4etjY_q-mooiqIXthSboDiPDGOxPGCrjE9XQ&usqp=CAU" alt="">
+            this is a placeholder for an image
            </div>
         </div> 
+    </div> 
         <div class="content">
             <div class="title"> Some random information</div>
             <div class="boxes">
-                <div class="box">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1TwuRdTsugDLXa-889-Z7rIp6oW-D-LLkEiu3YcQLe7GbgN5uBuI3R5ch3hd-lEaoig&usqp=CAU" alt="">
+                <div class="box-container">
+                    <div class="box"></div>
                     <div class="box-text">This is some subtext under an illustration or image</div>
                 </div>
-                <div class="box">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1TwuRdTsugDLXa-889-Z7rIp6oW-D-LLkEiu3YcQLe7GbgN5uBuI3R5ch3hd-lEaoig&usqp=CAU" alt="">
+                <div class="box-container">
+                    <div class="box"></div>
                     <div class="box-text">This is some subtext under an illustration or image</div>
                 </div>
-                <div class="box">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1TwuRdTsugDLXa-889-Z7rIp6oW-D-LLkEiu3YcQLe7GbgN5uBuI3R5ch3hd-lEaoig&usqp=CAU" alt="">
+                
+                <div class="box-container">
+                    <div class="box"></div>
                     <div class="box-text">This is some subtext under an illustration or image</div>
                 </div>
-                <div class="box">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1TwuRdTsugDLXa-889-Z7rIp6oW-D-LLkEiu3YcQLe7GbgN5uBuI3R5ch3hd-lEaoig&usqp=CAU" alt="">
+                
+                <div class="box-container">
+                    <div class="box"></div>
                     <div class="box-text">This is some subtext under an illustration or image</div>
                 </div>
+                
             </div>
         </div> 
-        <div class="quote">
-            <p>This is and inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or mauybe people will actually read it. Who knows? All i know is that it looks nice. </p>
-            <div class="quote-subtext"> -Thor, god of thunder</div>
-        </div>  
+        <div class="quote-container">
+            <div class="quote">
+                <p>This is and inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or mauybe people will actually read it. Who knows? All i know is that it looks nice. </p>
+                <div class="quote-subtext"> -Thor, god of thunder</div>
+            </div>  
+        </div>
         <div class="sign-up">
             <div class="sign-up-content">
-                <h2> Call to action! Its time!</h2>
-                <h3>Sign up for our product by clicking that button right over there!</h3>
+                <div class="sign-up-text">
+                    <h2> Call to action! Its time!</h2>
+                    <div id="sut">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <button>Sign Up</button>
             </div>
-            <button>Sign Up</button>
+            
         </div>
         <div class="footer">
             Copyright @ The odin project 2021
         </div>
-    </div>
+    
 </body>
 </html>
